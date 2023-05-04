@@ -4,9 +4,14 @@ const nextConfig = {
   swcMinify: true,
   output: "standalone",
   compress: false,
+  images: {
+    unoptimized: false
+  },
   experimental: {
     appDir: true,
   },
 }
 
 module.exports = nextConfig
+
+
