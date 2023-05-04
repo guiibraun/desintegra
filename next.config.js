@@ -5,7 +5,7 @@ const nextConfig = {
   output: "standalone",
   compress: false,
   images: {
-    unoptimized: false
+    unoptimized: true
   },
   experimental: {
     appDir: true,
@@ -13,5 +13,7 @@ const nextConfig = {
 }
 
 module.exports = nextConfig
+
+
 
 
