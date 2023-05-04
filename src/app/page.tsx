@@ -11,7 +11,6 @@ export default function Home() {
         <div className='flex flex-col items-center justify-center'>
           <Button href="https://pay.greenn.com.br/21360/offer/27G7SL?_rl_4rzwh4=gqmrcj">Ingresso Vip</Button>
         </div>
-
       </section>
     </main>
   )
